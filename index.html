@@ -120,14 +120,13 @@
                             <div class="details-container">
                                 <img src="./images/education.png" alt="Education icon" class="icon" />
                                 <h3>Education</h3>
-                                <p>B.E. Mechanical Engineer<br />CGPA: 6.53</p>
+                                <p>Bachelor of Engineering<br />CGPA: 6.53</p>
                             </div>
                         </div>
                         <div class="text-container">
                             <p>
                                 As a data science enthusiast, I'm eager for hands-on experience to sharpen my skills.
-                                With efficient time
-                                Management and agility, I consistently meet and exceed deadlines. Ready to make
+                                With efficient time Management and agility, I consistently meet and exceed deadlines. Ready to make
                                 impactful contributions, I'm eager to tackle challenges head-on.
                             </p>
                         </div>
@@ -515,7 +514,7 @@
 
                                 <div class="exp-box">
                                     <h4>2012 - 2016</h4>
-                                    <h3>Bachlor of Engineering</h3>
+                                    <h3>Bachelor of Engineering</h3>
                                     <p>Mumbai University<br> ( CGPA: 6.53 )</p>
                                 </div>
 
@@ -554,14 +553,43 @@
                                 </div> -->
 
                                 <div class="exp-box">
-                                    <h4>2025 - Present</h4>
-                                    <h3>Cloud DevOps Intern</h3>
-                                    <p><a href="https://www.linkedin.com/in/genie-us-tech/"><span
-                                                style="text-decoration: none;color: blue;cursor: pointer;font-weight: 500;">Genie
-                                                US Tech</span></a><br>
-                                        Gained HandsOn experience with AWS services, including CloudFormation, EC2, S3,
-                                        IAM, Lambda and etc..</p>
+                                    <h4>Apr 2023 - Nov 2024</h4>
+                                    <h3>Business Analyst</h3>
+                                    <p id="short-text">
+                                        At GeBBS Healthcare Solutions, I worked as a Business Analyst, where I automated critical healthcare processes using Python.
+                                        <span id="dots">...</span>
+                                        <span id="more-text" style="display: none;">
+                                            I significantly reduced manual effort and improved operational efficiency. I developed dynamic Power BI dashboards that empowered stakeholders with real-time insights for data-driven decision-making.
+                                            My role also involved handling large datasets, performing data cleaning and transformation to support accurate reporting and analysis.
+                                            This experience strengthened my expertise in Python, SQL, and data visualization, while also deepening my understanding of healthcare domain workflows.
+                                            It laid a strong foundation for applying AI and Generative AI solutions in real-world business environments.
+                                        </span>
+                                    </p>
+                                    <a id="read-more-btn" onclick="toggleReadMore()" style="color: blue; cursor: pointer; font-weight: 500;">Read more...</a>
                                 </div>
+                                
+                                <script>
+                                    function toggleReadMore() {
+                                        const dots = document.getElementById("dots");
+                                        const moreText = document.getElementById("more-text");
+                                        const btn = document.getElementById("read-more-btn");
+                                
+                                        if (moreText.style.display === "none") {
+                                            dots.style.display = "none";
+                                            moreText.style.display = "inline";
+                                            btn.innerText = "Read less";
+                                        } else {
+                                            dots.style.display = "inline";
+                                            moreText.style.display = "none";
+                                            btn.innerText = "Read more...";
+                                        }
+                                    }
+                                </script>
+                                <!-- <div class="exp-box">
+                                    <h4>2022 - 2023</h4>
+                                    <h3>Data Science Intern</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>                                
 
                                 <!-- <div class="exp-box">
                                     <h4>2018 - 2022</h4>
