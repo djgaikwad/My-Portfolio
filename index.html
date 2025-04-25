@@ -607,54 +607,50 @@
                                         Created engaging content for social media platforms to increase business visibility, drive website traffic, and boost sales.</p>
                                 </div> -->
 
-                  <div class="exp-box">
-                    <h4>Apr 2023 - Nov 2024</h4>
-                    <h3>Business Analyst</h3>
-                    <p id="short-text">
-                      At GeBBS Healthcare Solutions, I worked as a Business
-                      Analyst, where I automated critical healthcare processes
-                      using Python.
-                      <span id="dots">...</span>
-                      <span id="more-text" style="display: none">
-                        I significantly reduced manual effort and improved
-                        operational efficiency. I developed dynamic Power BI
-                        dashboards that empowered stakeholders with real-time
-                        insights for data-driven decision-making. My role also
-                        involved handling large datasets, performing data
-                        cleaning and transformation to support accurate
-                        reporting and analysis. This experience strengthened my
-                        expertise in Python, SQL, and data visualization, while
-                        also deepening my understanding of healthcare domain
-                        workflows. It laid a strong foundation for applying AI
-                        and Generative AI solutions in real-world business
-                        environments.
-                      </span>
-                    </p>
-                    <a
-                      id="read-more-btn"
-                      onclick="toggleReadMore()"
-                      style="color: blue; cursor: pointer; font-weight: 500"
-                      >Read more...</a
-                    >
-                  </div>
-
-                  <script>
-                    function toggleReadMore() {
-                      const dots = document.getElementById("dots");
-                      const moreText = document.getElementById("more-text");
-                      const btn = document.getElementById("read-more-btn");
-
-                      if (moreText.style.display === "none") {
-                        dots.style.display = "none";
-                        moreText.style.display = "inline";
-                        btn.innerText = "Read less";
-                      } else {
-                        dots.style.display = "inline";
-                        moreText.style.display = "none";
-                        btn.innerText = "Read more...";
-                      }
+                <div class="exp-box"> 
+                  <h4>Jan 2020 - Mar 2023</h4>
+                  <h3>Production Planning Engineer</h3>
+                  <p id="short-text-1">
+                    At ASMI Engineering Works, I contributed to production planning and data analysis to enhance operational performance.
+                    <span id="dots-1">...</span>
+                    <span id="more-text-1" style="display: none">
+                      I strategically planned and scheduled production tasks to ensure 100% on-time order fulfilment. I designed interactive Power BI dashboards to monitor monthly production data, leading to a 20% improvement in workflow efficiency. Using Python, I conducted data analysis that optimized inventory management and reduced operational costs by 15%. I also developed automated Power BI reports that streamlined production performance analysis and reporting. This role honed my skills in data analytics, dashboard development, and process optimization within a manufacturing environment.
+                    </span>
+                  </p>
+                  <a id="read-more-btn-1" onclick="toggleReadMore(1)" style="color: blue; cursor: pointer; font-weight: 500">Read more...</a>
+                </div>
+                
+                <div class="exp-box">
+                  <h4>Apr 2023 - Nov 2024</h4>
+                  <h3>Business Analyst</h3>
+                  <p id="short-text-2">
+                    At GeBBS Healthcare Solutions, I worked as a Business Analyst, where I automated critical healthcare processes using Python.
+                    <span id="dots-2">...</span>
+                    <span id="more-text-2" style="display: none">
+                      I significantly reduced manual effort and improved operational efficiency. I developed dynamic Power BI dashboards that empowered stakeholders with real-time insights for data-driven decision-making. My role also involved handling large datasets, performing data cleaning and transformation to support accurate reporting and analysis. This experience strengthened my expertise in Python, SQL, and data visualization, while also deepening my understanding of healthcare domain workflows. It laid a strong foundation for applying AI and Generative AI solutions in real-world business environments.
+                    </span>
+                  </p>
+                  <a id="read-more-btn-2" onclick="toggleReadMore(2)" style="color: blue; cursor: pointer; font-weight: 500">Read more...</a>
+                </div>
+                
+                <script>
+                  function toggleReadMore(id) {
+                    const dots = document.getElementById("dots-" + id);
+                    const moreText = document.getElementById("more-text-" + id);
+                    const btn = document.getElementById("read-more-btn-" + id);
+                
+                    if (moreText.style.display === "none") {
+                      dots.style.display = "none";
+                      moreText.style.display = "inline";
+                      btn.innerText = "Read less";
+                    } else {
+                      dots.style.display = "inline";
+                      moreText.style.display = "none";
+                      btn.innerText = "Read more...";
                     }
-                  </script>
+                  }
+                </script>
+                                
                   <!-- <div class="exp-box">
                                     <h4>2022 - 2023</h4>
                                     <h3>Data Science Intern</h3>
