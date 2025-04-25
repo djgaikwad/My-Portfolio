@@ -8,7 +8,7 @@ togglebtn.addEventListener("click", function () {
 })
 
 var typed = new Typed(".input", {
-    strings: ["Python Automation Engineer","Machine Learning Engineer","AI Engineer","Generative AI Enthusiast","Agentic AI Enthusiast"],
+    strings: ["Data Analyst", "Python Automation Engineer","Machine Learning Engineer","AI Engineer","Generative AI Enthusiast","Agentic AI Enthusiast"],
     typedSpeed: 70,
     backSpeed: 55,
     loop: true
